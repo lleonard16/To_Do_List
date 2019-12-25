@@ -1,5 +1,14 @@
 <h1>New Todo List</h1>
 
+<h3>Date and Time</h3>
+<body>
+<span id="cg"></span>
+<script>
+setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+</script>
+<br> <br/>
+</body>
+
 <%= render 'form', todo_list: @todo_list %>
 
 <%= link_to 'Back', todo_lists_path %>

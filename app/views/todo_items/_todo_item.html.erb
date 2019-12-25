@@ -1,8 +1,5 @@
 <p> <%= todo_item.content %> 
-<body>   </body>
-<%= link_to '&nbsp;&nbsp;&nbsp; <i class="far fa-check-square"></i>'.html_safe, todo_list_todo_item_path(@todo_list, todo_item.id),method: :delete, data:{ confirm: "Are u sure? "} %>
-
-
+    <%= link_to '&nbsp;&nbsp;&nbsp; <i class="far fa-check-square"></i>'.html_safe, todo_list_todo_item_path(@todo_list, todo_item.id),method: :delete, data:{ confirm: "Are u sure? "} %>
 </p>
 
 
