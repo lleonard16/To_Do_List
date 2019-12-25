@@ -3187,3 +3187,44 @@ Processing by TodoListsController#index as HTML
 Completed 200 OK in 64ms (Views: 57.8ms | ActiveRecord: 0.7ms | Allocations: 5556)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-25 17:17:26 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:15
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 43.7ms | Allocations: 4869)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 221ms (Views: 202.3ms | ActiveRecord: 2.0ms | Allocations: 18692)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 17:19:01 +0800
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.5ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:15
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 881)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 465ms (Views: 456.5ms | ActiveRecord: 0.5ms | Allocations: 7865)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-25 17:20:11 +0800
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.4ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:15
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 862)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 477ms (Views: 471.6ms | ActiveRecord: 0.4ms | Allocations: 7018)
+
+
+Started GET "/todo_lists/new" for 127.0.0.1 at 2019-12-25 17:21:09 +0800
+Processing by TodoListsController#new as HTML
+  Rendering todo_lists/new.html.erb within layouts/application
+  Rendered todo_lists/_form.html.erb (Duration: 137.5ms | Allocations: 5337)
+  Rendered todo_lists/new.html.erb within layouts/application (Duration: 143.5ms | Allocations: 5696)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 193ms (Views: 184.6ms | ActiveRecord: 0.0ms | Allocations: 8916)
+
+
