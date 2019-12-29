@@ -9,6 +9,16 @@
       "js.map": [
         "/packs/js/application-0b67a3cc2fcde6055024.js.map"
       ]
+    },
+    "hello_react": {
+      "js": [
+        "/packs/js/hello_react-2146a6e2607f20a14981.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_react-2146a6e2607f20a14981.js.map"
+      ]
     }
-  }
+  },
+  "hello_react.js": "/packs/js/hello_react-2146a6e2607f20a14981.js",
+  "hello_react.js.map": "/packs/js/hello_react-2146a6e2607f20a14981.js.map"
 }

@@ -5286,3 +5286,69 @@ Processing by TodoListsController#show as HTML
 Completed 200 OK in 43ms (Views: 35.5ms | ActiveRecord: 0.5ms | Allocations: 6903)
 
 
+Started GET "/" for 127.0.0.1 at 2019-12-27 17:19:04 +0800
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.6ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:24
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 29.4ms | Allocations: 4749)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/liu/CVWO_Assignment_Task/public/packs
+[Webpacker] Hash: e9801fd78b2087c4b711
+Version: webpack 4.41.4
+Time: 9098ms
+Built at: 12/27/2019 5:19:15 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0b67a3cc2fcde6055024.js    124 KiB  application  [emitted] [immutable]  application
+js/application-0b67a3cc2fcde6055024.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-2146a6e2607f20a14981.js   1.19 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-2146a6e2607f20a14981.js.map   1.37 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-0b67a3cc2fcde6055024.js js/application-0b67a3cc2fcde6055024.js.map
+Entrypoint hello_react = js/hello_react-2146a6e2607f20a14981.js js/hello_react-2146a6e2607f20a14981.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 992 bytes {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+Completed 200 OK in 11201ms (Views: 11184.3ms | ActiveRecord: 1.3ms | Allocations: 13563)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-27 17:30:17 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.2ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:24
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1037)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.2ms | Allocations: 6639)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-27 17:30:49 +0800
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.2ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:24
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 1025)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.2ms | Allocations: 6617)
+
+
+Started GET "/" for 127.0.0.1 at 2019-12-27 17:31:43 +0800
+Processing by TodoListsController#index as HTML
+  Rendering todo_lists/index.html.erb within layouts/application
+  [1m[36mTodoList Load (0.1ms)[0m  [1m[34mSELECT "todo_lists".* FROM "todo_lists"[0m
+  ↳ app/views/todo_lists/index.html.erb:24
+  Rendered todo_lists/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1020)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.1ms | Allocations: 6609)
+
+
