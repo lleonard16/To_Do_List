@@ -1,2 +1,2 @@
-# CVWO_Assignment_Task
-This is the assignment for the CVWO Project 
+#To Do List
+This is a To Do List web application using Ruby on Rails
